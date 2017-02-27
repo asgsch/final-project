@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MetaCoin - Default Truffle App</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body style="width: 100%;">
+  <h1>FundingHub</h1><br>
+  <button id="createProjects" onclick="createProject()">Create Project</button><br>
+<label style="width: 100%;">Amount to raise:</label><input type="text" id="amountToRaise" value="100000"></input>
+  <br><label style="width: 100%;">Days to deadline:</label><input type="text" id="daysToDeadline" value="100"></input><br><br>
+  <button id="getProjects" onclick="getProjects()">Show Projects</button><br>
+  <span id="projects"  style="width: 100%;">-</span><br>
+  <span class="black"><span id="contributions">-</span></span><br>
+<br><br><br>
+
+</body>
+</html>
